@@ -3,12 +3,12 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
+        protocol:'https',
         hostname: 'upload.wikimedia.org',
         pathname: '**',
-      },
-    ],
-  },
+      }
+    ]
+  }
 };
 
-module.exports = nextConfig;
+export default nextConfig;
