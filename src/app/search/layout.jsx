@@ -1,8 +1,5 @@
-import SearchHeader from "@/components/SearchHeader";
-import './../globals.css'
-
-
-import React from "react";
+import SearchHeader from '@/components/SearchHeader';
+import './../globals.css';
 
 export default function layout({ children }) {
   return (
